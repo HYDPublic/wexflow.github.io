@@ -28,35 +28,41 @@
         </header>
 
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.7/Wexflow_setup_windows.zip" id="download-windows" class="button"><span>Windows installer</span></a>
-          <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.7/Wexflow_setup_linux.zip" id="download-linux" class="button"><span>Linux installer</span></a>
-		  <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.7/Wexflow_setup_android.zip" id="download-android" class="button"><span>Android installer</span></a>
+          <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.8/Wexflow_setup_windows.zip" id="download-windows" class="button"><span>Windows installer</span></a>
+		  <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.8/Wexflow_setup_macOS.zip" id="download-macos" class="button"><span>macOS installer</span></a>
+          <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.8/Wexflow_setup_linux.zip" id="download-linux" class="button"><span>Linux installer</span></a>
+		  <a href="https://github.com/aelassas/Wexflow/releases/download/v1.0.8/Wexflow_setup_android.zip" id="download-android" class="button"><span>Android installer</span></a>
         </section>
 
         <hr>
 
         <section id="main_content">
 
-		<p>Wexflow aims to make automations, workflow processes, long-running processes and interactions between systems, applications and folks easy, straitforward and clean.</p>
+		<p>Wexflow is an open source extensible and multithreaded workflow engine with a cross platform manager app that works on Windows, macOS, Linux and Android. Wexflow aims to make automations, workflow processes, long-running processes and interactions between systems, applications and folks easy, straitforward and clean.</p>
 
 		<p>Wexflow provides the following features:</p>
 
 		<ul>
 			<li><strong>Sequential workflows:</strong> A sequential workflow&nbsp;executes a set of tasks in order, one by one. Tasks are executed&nbsp;in a sequential manner until the last task finishes.</li>
-			<li><strong>Flowchart workflows:</strong> A flowchart workflow is a workflow that contains at least one&nbsp;flowchart node (DoIf/DoWhile) in its execution graph. A flow chart node takes as input a flowchart task (A task that returns either true or false after performing its job) and a set of tasks to execute in order, one by one.</li>
+			<li><strong>Flowchart workflows:</strong> A flowchart workflow is a workflow that contains at least one&nbsp;flowchart node (If/While/Switch) in its execution graph. A flow chart node takes as input a flowchart task (A task that returns either true or false after performing its job) and a set of tasks to execute in order, one by one.</li>
 			<li><strong>Workflow events:</strong> After a workflow finishes its job, its final result is either success, or warning&nbsp;or error. If its final result is success, the OnSuccess event is triggered. If its final result is warning, the OnWarning event is triggered. If its final result is error, the OnError event is triggered. An event contains a set of tasks and/or flowchart nodes to execute in order, one by one.</li>
-			<li><strong>Wexflow Manager:</strong> Wexflow provides a GUI for managing workflows that works on both Windows and Linux.</li>
+			<li><strong>Wexflow Manager:</strong> Wexflow provides a GUI for managing workflows that works on Windows, macOS and Linux.</li>
 			<li><strong>Wexflow Web Manager:</strong> Wexflow can be hosted on any website through its lightweight JavaScript API (~6Kb).</li>
 			<li><strong>Wexflow Android Manager:</strong> Wexflow provides an Android application for managing workflows.</li>
 			<li><strong>Automation:</strong> Workflows can either be launched when Wexflow engine starts or triggered manually or launched periodically.</li>
-                        <li><strong>Monitoring:</strong> Everything that happens in Wexflow is traced in the log files.</li>
-			<li><strong>Built-in tasks:</strong> Wexflow provides 31 built-in tasks for different kind of jobs.</li>
+            <li><strong>Monitoring:</strong> Everything that happens in Wexflow is traced in the log files.</li>
+			<li><strong>Built-in tasks:</strong> Wexflow provides 32 built-in tasks for different kind of jobs.</li>
+			<li><strong>Extensible:</strong> The user can create his own custom tasks in C# or VB.</li>
 		</ul>
 		
 		<p>More details about the features can be found <a href="https://github.com/aelassas/Wexflow/wiki/">here</a>.</p>
 		
 		<h1>Get started</h1>
-		<p>Browse the <a href="https://github.com/aelassas/Wexflow/wiki">wiki</a> to get started.</p>
+		<ul>
+		<li><a href="https://github.com/aelassas/Wexflow/wiki/Installation">Installation guide</a></li>
+		<li><a href="https://github.com/aelassas/Wexflow/wiki/Usage">Quick start</a></li>
+		<li><a href="https://github.com/aelassas/Wexflow/wiki/Samples">Workflow samples</a></li>
+		</ul>
 <!--		
                 <h1>Donate</h1>
                 <p> <img src="https://aelassas.github.io/wexflow/images/wu.png" alt="Western Union" /><br />If you found Wexflow useful and want to make a donation, please contact me by email at akram.elassas@gmail.com.<br /><br />I accept donations through Western Union.

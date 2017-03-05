@@ -162,8 +162,15 @@ a.button span {
 #download-windows span {
   background: transparent url(../images/windows-icon.png) 12px 50% no-repeat;
 }
+#download-macos span {
+  background: transparent url(../images/macos-icon.png) 12px 50% no-repeat;
+}
 #download-linux span {
   background: transparent url(../images/linux-icon.png) 12px 50% no-repeat;
+}
+#download-android {
+  margin-top: 10px;
+  margin-left: 210px;
 }
 #download-android span {
   background: transparent url(../images/android-icon.png) 12px 50% no-repeat;
