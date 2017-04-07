@@ -168,12 +168,17 @@ a.button span {
 #download-linux span {
   background: transparent url(../images/linux-icon.png) 12px 50% no-repeat;
 }
-#download-android {
+#download-android, #download-zip, #download-tar-gz {
   margin-top: 10px;
-  margin-left: 210px;
 }
 #download-android span {
   background: transparent url(../images/android-icon.png) 12px 50% no-repeat;
+}
+#download-zip span {
+  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
+}
+#download-tar-gz span {
+  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
