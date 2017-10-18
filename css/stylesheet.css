@@ -348,6 +348,18 @@ footer a:hover {
   color: #444;
 }
 
+.social-buttons {
+    text-align: center;
+}
+
+.social-share {
+    width: 100px !important;
+    height: 20px !important;
+    border: none;
+    overflow: hidden;
+    margin: 2px;
+}
+
 /* MISC */
 .clearfix:after {
   clear: both;
