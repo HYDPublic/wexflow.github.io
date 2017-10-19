@@ -124,7 +124,7 @@ a.button {
   padding: 12px 8px 12px 8px;
   display: block;
   float: left;
-  width: 179px;
+  width: 159px;
   margin-right: 14px;  
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -158,7 +158,9 @@ a.button span {
   display: block;
   height: 27px;
 }
-
+#download-github span {
+  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+}
 #download-windows span {
   background: transparent url(../images/windows-icon.png) 12px 50% no-repeat;
 }
@@ -168,9 +170,9 @@ a.button span {
 #download-linux span {
   background: transparent url(../images/linux-icon.png) 12px 50% no-repeat;
 }
-#download-android, #download-zip, #download-tar-gz {
+/*#download-android, #download-zip, #download-tar-gz {
   margin-top: 10px;
-}
+}*/
 #download-android span {
   background: transparent url(../images/android-icon.png) 12px 50% no-repeat;
 }
